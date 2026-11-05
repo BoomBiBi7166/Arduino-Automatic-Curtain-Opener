@@ -31,12 +31,12 @@ void loop() {
   Serial.print(minute);
   Serial.print(":");
   Serial.println(second);
-  if (hour == 12 && minute == 18 && second == 00 && !openedToday) {
+  if (hour == 7 && minute == 30 && second == 00 && !openedToday) {
     openCurtain();
     openedToday = true;
     closedToday = false;
   }
-  if (hour == 12 && minute == 18 && second == 10 && !closedToday) {
+  if (hour == 19 && minute == 00 && second == 00 && !closedToday) {
     closeCurtain();
     closedToday = true;
     openedToday = false;
