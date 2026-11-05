@@ -2,7 +2,7 @@
 An automatic curtain opener (CSS332 project)
 
 ## Langauge
-- C++17
+- C++
 
 ## Component
 - Arduino Servo MG996R
